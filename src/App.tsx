@@ -5,7 +5,6 @@ const App = ({ width, height }) => {
   return (
     <>
       <VisxCustomGraph width={width} height={height} />
-      {/*<PixiStage width={width} height={height} />*/}
       <PixiApp />
     </>
   );
