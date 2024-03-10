@@ -1,10 +1,8 @@
-import VisxCustomGraph from "./visx-graph/VisxCustomGraph";
 import PixiApp from "./pixi-graph/PixiApp";
 
-const App = ({ width, height }) => {
+const App = () => {
   return (
     <>
-      <VisxCustomGraph width={width} height={height} />
       <PixiApp />
     </>
   );
